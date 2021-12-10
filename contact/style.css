@@ -78,14 +78,24 @@ button:hover {
   color: #783E39;
 }
 
-/* Centered section inside the top navigation */
-
-
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
 }
 
+
+/* body styling */
+h1 {
+  padding: 8%;
+  font-size: 3em;
+  text-align: center;
+  background-image: url(assets/heading.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+
+/* Footer styling */
 footer {
   text-align: center;
   padding: 1%;

@@ -1,3 +1,4 @@
+/* Basic Page Styling */
 h1, h2, h3 {
   font-family: "Abril Fatface", cursive;
   color: #783E39;
@@ -26,6 +27,7 @@ button:hover {
   color: #6F7783;
 }
 
+/* Background Styling */
 #content {
   background-image: url("assets/background2.jpg");
   background-repeat: repeat;
@@ -33,7 +35,7 @@ button:hover {
   padding-bottom: 10%;
 }
 
-/* Add a black background color to the top navigation */
+/* Nav bar styling */
 .topnav {
   /* position: relative; */
   background-color: #FFF;
@@ -78,14 +80,59 @@ button:hover {
   color: #783E39;
 }
 
-/* Centered section inside the top navigation */
-
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
+h1 {
+  padding: 8%;
+  font-size: 3em;
+  text-align: center;
+  background-image: url(assets/heading.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
 }
 
+#frontAbout {
+    display: grid;
+    /* grid-template-columns: repeat(2, 5fr 5fr); */
+    width: 100%
+    /* padding-top: 5%; */
+    margin-right: 3%;
+    margin-left: 3%;
+    /* margin-top: 3%; */
+  }
+
+  #aboutText {
+    grid-column-start: 1
+    grid-column-end: 2;
+    background-image: url(assets/aboutMeTextBackground.png);
+    background-size: 100% 100%;
+    padding: 10%;
+    color: #783E39;
+  }
+
+#aboutText h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+
+.aboutMeText {
+  font-size: 1em;
+  text-indent: 50px;
+}
+
+  #picAbout {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    max-width: 90%;
+    margin: auto;
+  }
+
+#frontAbout button {
+  transform: translateX(120%);
+  text-align: center;
+}
+
+
+/* Footer Styling */
 footer {
   text-align: center;
   padding: 1%;
