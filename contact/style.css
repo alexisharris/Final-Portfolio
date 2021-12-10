@@ -26,6 +26,11 @@ button:hover {
   color: #6F7783;
 }
 
+a {
+  font-family: "Poppins", sans-serif;
+  color: #6F7783
+}
+
 #content {
   background-image: url("assets/background2.jpg");
   background-repeat: repeat;
@@ -92,6 +97,46 @@ h1 {
   background-image: url(assets/heading.png);
   background-size: 100% 90%;
   background-repeat: no-repeat;
+}
+
+#contactPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+#email {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(assets/contactBackground2.png);
+    background-size: 100% 100%;
+    padding: 20% 20%;}
+
+#email h2, #call h2 {
+  font-size: 2em;
+}
+
+#email p, #call p {
+  font-size: 1em;
+}
+
+#call {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(assets/contactBackground2.png);
+    background-size: 100% 100%;
+    padding: 20% 20%;}
+
+.contactBox {
+  margin: auto;
+  /* padding: 5% 15%; */
+  color: #783E39;
+  text-align: center;
+}
+
+#email img, #call img {
+  max-width: 20%;
 }
 
 
