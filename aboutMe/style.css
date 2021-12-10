@@ -1,0 +1,121 @@
+h1, h2, h3 {
+  font-family: "Abril Fatface", cursive;
+  color: #783E39;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+p a{
+  color: #6F7783;
+}
+
+button {
+  background-color: #CC8B62;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #F2DFD1;
+  color: #6F7783;
+}
+
+#content {
+  background-image: url("assets/background2.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /* position: relative; */
+  background-color: #FFF;
+  overflow: hidden;
+  font-family: 'Poppins', cursive;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2%;
+  /* margin: auto; */
+}
+
+
+.topnav img {
+  /* display: block; */
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+  /* margin: 10px auto auto auto; */
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #783E39;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #783E39;
+  background-color: #F2DFD1;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #F3D7BF;
+  color: #783E39;
+}
+
+/* Centered section inside the top navigation */
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+footer {
+  text-align: center;
+  padding: 1%;
+  background-color: #CC8B62;
+  color: white;
+}
+
+
+#social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 30%;
+}
+
+#instagram, #behance, #wordpress {
+  width: 30%;
+  margin: 3% auto;
+}
+
+#footerMenu {
+  font-family: Poppins;
+  margin-top: 1%;
+  font-size: 1.2em;
+}
+
+#footerMenu a{
+  color: white;
+  margin: 2%;
+}
+
+footer p{
+  color: #F3D7BF;
+}
