@@ -1,3 +1,13 @@
+// Code to link buttons
+document.getElementById("portfolioFront").addEventListener("click", function() {
+        location.href = "portfolio/index.html";
+    });
+
+    document.getElementById("frontAboutButton").addEventListener("click", function() {
+            location.href = "aboutMe/index.html";
+        });
+
+
 // Code for animated text, learned from https://www.youtube.com/watch?v=POX3dT-pB4E&t=41s, but had to change some things to get it to work for my website and aesthetics
 const TypeWriter = function(textElement, words, wait = 3000) {
   this.textElement = text;

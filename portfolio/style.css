@@ -33,6 +33,19 @@ button:hover {
   padding-bottom: 10%;
 }
 
+h1 {
+  padding: 8%;
+  font-size: 3em;
+  text-align: center;
+  background-image: url(assets/heading.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   /* position: relative; */
@@ -78,12 +91,132 @@ button:hover {
   color: #783E39;
 }
 
-/* Centered section inside the top navigation */
+.recentWorkContainer {
+  text-align: center;
 
+  /* padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 6%; */
+}
 
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
+#designBox{
+background-image: url("assets/recentWork2.png");
+background-size: 100% 100%;
+}
+
+#webBox{
+background-image: url("assets/recentWork.png");
+background-size: 100% 100%;
+}
+
+#teachingBox {
+  background-image: url("assets/recentWork3.png");
+  background-size: 100% 100%;
+}
+
+.portfolioBox {
+  padding: 10%;
+}
+
+.portfolioBox h2 {
+  font-size: 2em;
+}
+
+.portfolioBox p {
+  font-size: 1.2em;
+  color: #783E39;
+}
+/* Hover Overlay for images in Portfolio */
+.container {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CC8B62;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Making tables for work */
+.work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5%;
+}
+
+#design1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#design2 {
+  grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#design3 {
+  grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#design4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#design5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#design6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#web1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#web2 {
+  grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#web3 {
+  grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 footer {
