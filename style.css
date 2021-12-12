@@ -304,4 +304,61 @@ footer p{
       #recentWork3 img {
       max-width: 70%;
       max-height: auto;}
+
+#top {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          margin-left: 5%;
+          padding-top: 5%;
+        }
+        #me {
+          grid-column-start: 1;
+          grid-column-end: 2;
+          max-width: 100%;
+
+        }
+
+
+        #animatedText {
+          grid-column-start: 1
+          grid-column-end: 2;
+          margin: auto;
+          /* padding: 12% 23%; */
+          padding: 10% 0% 17% 0%;
+          color: #783E39;
+          font-size: 1.5em;
+          text-align: center;
+      }
+
+#recentWorkContainer {
+        background-image: url("assets/recentWorkFront.png");
+      }
+
+#headingRecentWork {
+  padding-top: 10%;
+}
+
+#recentWorkContainer button {
+        margin-bottom: 10%;
+      }
+
+      #frontAbout {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          padding-top: 5%;
+          margin-right: 3%;
+          margin-left: 3%;
+          margin-top: 3%;
+        }
+        #aboutText {
+          grid-column-start: 1;
+          grid-column-end: 2;
+        }
+
+        #instagram, #behance, #wordpress {
+          width: 60%;
+          margin: 3% auto;
+        }
+
+
 }

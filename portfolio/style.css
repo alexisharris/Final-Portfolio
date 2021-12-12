@@ -252,3 +252,58 @@ footer {
 footer p{
   color: #F3D7BF;
 }
+
+@media screen and (max-width: 901px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  .topnav img {
+    display: none;
+  }
+
+  .work {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #design1, #design2, #design3, #design4, #design5, #design6, #web1, #web2, #web3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 2%;
+  }
+
+  #designBox{
+  background-image: url("assets/recentWork4.png");
+  background-size: 100% 100%;
+  }
+
+  #webBox {
+    background-image: url("assets/recentWork5.png");
+  }
+
+  #teachingBox {
+    background-image: url("assets/recentWork6.png");
+  }
+
+
+
+  .portfolioBox {
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
+}

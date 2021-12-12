@@ -174,3 +174,45 @@ footer {
 footer p{
   color: #F3D7BF;
 }
+
+@media screen and (max-width: 901px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  .topnav img {
+    display: none;
+  }
+
+  #contactPage {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-right: 3%;
+      margin-left: 3%;
+    }
+
+  #email {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background-image: url(assets/contactBackground2.png);
+      background-size: 100% 100%;
+      padding: 20% 20%;}
+
+  #call {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(assets/contactBackground2.png);
+    background-size: 100% 100%;
+    padding: 20% 20%;
+  }
+
+  #email img, #call img {
+    max-width: 20%;
+  }

@@ -166,3 +166,42 @@ footer {
 footer p{
   color: #F3D7BF;
 }
+
+@media screen and (max-width: 901px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  .topnav img {
+    display: none;
+  }
+
+  #frontAbout {
+      display: grid;
+      /* grid-template-columns: repeat(2, 5fr 5fr); */
+      width: 100%
+      /* padding-top: 5%; */
+      margin-right: 3%;
+      margin-left: 3%;
+      /* margin-top: 3%; */
+  }
+
+  #aboutText {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(assets/aboutMeTextBackground.png);
+    background-size: 100% 100%;
+    padding: 10%;
+    color: #783E39;
+  }
+
+  #picAbout {
+    display: none;
+  }
